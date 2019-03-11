@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "styles/styles.css",
+    "inputFile": "styles/styles.less"
+  },
+  {
+    "outputFile": "styles/reset.css",
+    "inputFile": "styles/reset.less"
+  }
+]
