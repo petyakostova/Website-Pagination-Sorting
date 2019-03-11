@@ -13,34 +13,31 @@ html {
         width: 100%;
 
         .wrapper {
-            /*display: inline-block;*/
             width: 100%;
-            max-width: 1280px;
-            /*justify-content: center;*/
+            /*max-width: 1280px;*/
             .logo {
-                float: left;
-                padding-top: 85px;
+                position: fixed;
+                left: 0px;
+                top: 85px;
+                width: 5%;
+                /*padding-top: 85px;*/
                 /*max-width: 64px;*/
                 /*max-height: 1024px;*/
-                width: 5%;
-
                 a {
+                    float: left;
 
                     img {
                         width: 31px;
                         height: auto;
                         /*width: 2.5%;*/
-                        float: left;
                     }
                 }
             }
 
             .content {
-                float: left;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                /*max-width: 1152px;*/
                 width: 90%;
+                /*max-width: 1152px;*/
+                margin: 10px 64px 10px 64px;
 
                 header {
                     background-color: @light-gray-color;
@@ -53,7 +50,7 @@ html {
 
                         ul {
                             margin-top: 73px;
-                            /*margin-right: 2px;*/
+
                             li {
                                 float: left;
                                 padding-top: 10px;
@@ -88,12 +85,16 @@ html {
                 }
 
                 section {
-                    border: 1px solid red;
+                    background-color: yellow;
                     margin-top: 10px;
                     margin-bottom: 10px;
 
                     article {
                         background-color: deepskyblue;
+                        /*float: left;*/
+                        width: 70%;
+                        /*width: 794px;*/
+                        display: inline-block;
 
                         .page-title {
                         }
@@ -110,7 +111,10 @@ html {
                     }
 
                     aside {
-                        /*TODO*/
+                        float: right;
+                        background-color: greenyellow;
+                        width: 30%;
+                        /*width: 344px;*/
                     }
                 }
 
